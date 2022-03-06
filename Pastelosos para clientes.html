@@ -1,0 +1,146 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <meta charset="UTF=8">
+        <meta http-equiv="X-UA-Compatible" context="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <title>
+            Pastelosos
+        </title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:rgb(121, 233, 149)
+            }
+    
+            /* Estilo de header */
+            header {
+                background-color: rgb(233, 121, 186);
+                padding: 20px;
+                text-align: center;
+                font-size: 30px;
+                color: rgb(10, 10, 10);
+            }
+
+            footer {
+
+                background-color: rgb(29, 214, 54);
+                padding: 10px;
+                text-align: center;
+                color: rgb(0, 0, 0);
+            }
+
+    
+           
+        </style>
+
+    </head>
+
+     <body>
+
+            <header>
+
+                <img src="osito_pasteloso.JPG" alt="Osito Pasteloso" width="135px" height="135px" align="left">
+
+                <h2> Bienvenidos a Pastelosos</h2>
+
+        
+
+            </header>
+
+        
+
+            <br>
+            <br>
+            <p>
+
+                Esta pagina esta dirigida para los clientes de Pastelosos, 
+                en donde se hornean los pasteles mas esponjositos y suavecitos del mundo.
+
+            </p>
+    
+
+            <hr>
+
+
+            <h3>Sabores de pasteles:</h3>
+        
+            <li>Choclate: $100</li>
+            <li>Fresa: $150</li>
+            <li>Vainilla: $200</li>
+            <li>Chocoflan: $250</li>
+
+            <hr>
+
+            <h3>Adornos de pasteles:</h3>
+
+            <li>Dibujos en oblea: +$100</li>
+            <li>Figuras de plastico: +$150</li>
+            <li>Piso extra: +$200</li>
+
+            <hr>
+
+            <h3>Haga su pedido aqui:</h3>
+
+            <form action="/accion.js" id="form1" method="post">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+                
+                <label for="telefono">Telefono:</label>
+                <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+
+                <label for="correo">Correo:</label>
+                <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+
+                <label for="descripcion">Descripción:</label>
+                <input type="text" id="apellido" name="apellido" form="form1"><br><br> 
+
+                <h4>Seleccione su sabor o sabores:</h4><br>
+
+                <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate">
+                <label for="sabor1">Chocolate</label><br>
+
+                <input type="checkbox" id="sabor2" name="sabor2" value="Fresa">
+                <label for="sabor2">Fresa</label><br>
+
+                <input type="checkbox" id="sabor3" name="sabor3" value="Vainilla">
+                <label for="sabor3">Vainilla</label><br>
+
+                <input type="checkbox" id="sabor4" name="sabor4" value="Chocoflan">
+                <label for="sabor4">Chocoflan</label><br>
+
+                <h4>Seleccione su adorno o adornos:</h4><br>
+
+                <input type="checkbox" id="adorno1" name="adorno1" value="oblea">
+                <label for="adorno1">Dibujo en oblea</label><br>
+
+                <input type="checkbox" id="adorno2" name="adorno2" value="figura">
+                <label for="adorno2">Figura de plastico</label><br>
+
+                <input type="checkbox" id="adorno3" name="adorno3" value="piso">
+                <label for="adorno3">Piso extra</label><br>
+
+                
+            </form>
+            
+            <input type="submit" value="Submit">
+            <input type="reset">
+
+            <footer>
+                <p>Numero de telefono: 5514568209</p><br>
+                <p>Ubicacion: Flamingos #162, Metropolitana 3ra Seccion, Cd Neza, Edo de Mexico</p><br>
+            </footer>
+        
+        </body>
+    </html>
