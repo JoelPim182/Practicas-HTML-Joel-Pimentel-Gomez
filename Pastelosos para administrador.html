@@ -1,0 +1,190 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <meta charset="UTF=8">
+        <meta http-equiv="X-UA-Compatible" context="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <title>
+            Pastelosos
+        </title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:rgb(121, 233, 149)
+            }
+    
+            /* Estilo de header */
+            header {
+                background-color: rgb(233, 121, 186);
+                padding: 20px;
+                text-align: center;
+                font-size: 30px;
+                color: rgb(10, 10, 10);
+            }
+
+            footer {
+
+                background-color: rgb(29, 214, 54);
+                padding: 10px;
+                text-align: center;
+                color: rgb(0, 0, 0);
+            }
+
+            table, th, td{
+
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th, td{
+
+                padding: 10px;
+                
+            }
+
+    
+           
+        </style>
+
+    </head>
+
+     <body>
+
+            <header>
+
+                <img src="osito_pasteloso.JPG" alt="Osito Pasteloso" width="135px" height="135px" align="left">
+
+                <h2> Bienvenido Administrador de Pastelosos</h2>
+
+        
+
+            </header>
+
+        
+
+            <br>
+            <br>
+            <p>
+
+                En esta pagina podremos administrar todos los elementos relacionados a la pasteleria
+                de Los Pastelosos.
+
+            </p>
+    
+
+            <hr>
+
+
+            <h3>Inventario de sabores de pasteles:</h3>
+        
+            <li>Choclate: 20</li>
+            <li>Fresa: 15</li>
+            <li>Vainilla: 23</li>
+            <li>Chocoflan: 17</li>
+
+
+            <p>Porfavor anotar cuantos pasteles de que sabores se vendieron hoy, para actualizar
+                la base de datos.
+            </p>
+
+            <label for="num_choco">¿Cuantos pasteles de chocolate se pidieron hoy?:</label>
+            <input type="text" id="num_choco" name="num_choco"><br><br>
+
+            <label for="num_fresa">¿Cuantos pasteles de fresa se pidieron hoy?:</label>
+            <input type="text" id="num_fresa" name="num_fresa" form="form1"><br><br>
+            
+            <label for="telefono">¿Cuantos pasteles de vainilla se pidieron hoy?:</label>
+            <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+
+            <label for="correo">¿Cuantos pasteles de chocflan se pidieron hoy?:</label>
+            <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+
+            <input type="submit" value="submit">
+
+            <hr>
+
+            <h3>Inventario de adornos de pasteles:</h3>
+
+            <li>Dibujos en oblea: 36</li>
+            <li>Figuras de plastico: 45</li>
+
+
+            <p>Porfavor anotar cuantos adornos de pasteles se vendieron hoy, para actualizar
+                la base de datos.
+            </p>
+
+            <label for="num_dibujos">¿Cuantos dibujos de oblea se pidieron hoy?:</label>
+            <input type="text" id="num_dibujos" name="num_dibujos" form="form2"><br><br>
+
+            <label for="num_figs">¿Cuantas figuras de plastico se pidieron hoy?:</label>
+            <input type="text" id="num_figs" name="num_figs" form="form2"><br><br>
+
+            <input type="submit" value="submit">
+
+            <hr>
+
+            <p>Los pedidos de hoy se detallan a continuación:</p><br><br>
+
+            <table>
+
+                <tr>
+
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Num Telefono</th>
+                    <th>Correo</th>
+                    <th>Sabor/es</th>
+                    <th>Adorno/s</th>
+
+                </tr>
+
+               <tr>
+
+                <td>Joel</td>
+                <td>Pimentel Gomez</td>
+                <td>5513657384</td>
+                <td>joel.pimentel@gmail.com</td>
+                <td>Chocolate </td>
+                <td>Figura de plastico</td>
+
+               </tr>
+
+               <tr>
+
+                <td>Itzel</td>
+                <td>Garcia Romero</td>
+                <td>5545679349</td>
+                <td>itz@gmail.com</td>
+                <td>Fresa </td>
+                <td>Dibujo oblea</td>
+
+               </tr>
+
+               <tr>
+
+                <td>Romero</td>
+                <td>Bernal Sandoval</td>
+                <td>5544567312</td>
+                <td>RBS99@gmail.com</td>
+                <td>Fresa & chocolate </td>
+                <td>Dibujo oblea</td>
+
+               </tr>
+
+            </table><br><br>
+            
+
+            <footer>
+                <p>Numero de telefono: 5514568209</p><br>
+                <p>Ubicacion: Flamingos #162, Metropolitana 3ra Seccion, Cd Neza, Edo de Mexico</p><br>
+            </footer>
+        
+        </body>
+    </html>
